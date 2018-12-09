@@ -1,0 +1,143 @@
+[
+    {
+        "type" : "FirstName",
+        "values" :
+        [
+            {"Name" : "Ian", "Weight" : 50, "RestrictedToGender" : ["Male"]},
+            {"Name" : "Leslie", "Weight" : 49, "RestrictedToRace" : ["Elf", "Dwarf"]},
+            {"Name" : "Joanne", "Weight" : 50, "RestrictedToGender" : ["Female"], "RestrictedToRace" : ["Human"]}
+        ]
+    },
+    {
+        "type" : "LastName",
+        "values" :
+        [
+            {"Name" : "Williamson", "Weight" : 50},
+            {"Name" : "Rivera", "Weight" : 30},
+            {"Name" : "Nonhume", "Weight" : 9, "RestrictedToRace" : ["Elf", "Dwarf"]},
+            {"Name" : "Perrson", "Weight" : 50, "RestrictedToRace" : ["Human"]}
+        ]
+    },
+    {
+        "type" : "Gender",
+        "values" :
+        [
+            {"Name" : "Male", "Weight" : 45, "Pronouns" : ["He", "him", "his"], "Singular" : true},
+            {"Name" : "Female", "Weight" : 45, "Pronouns" : ["She", "her", "hers"], "Singular" : true},
+            {"Name" : "Androgynous", "Weight" : 5}
+        ]
+    },
+    {
+        "type" : "Item",
+        "values" :
+        [
+            {"Name" : "Axe +1", "Weight" : 1, "worth": 200},
+            {"name" : "pocket sand", "worth" : 0.05}
+        ]
+    },
+    {
+        "type" : "Race",
+        "values" :
+        [
+            {"name" : "Elf", "Weight" : 20},
+            {"name" : "Human", "Weight": 80},
+            {"name" : "Dwarf", "weight": 20}
+        ]
+    },
+    {
+        "type" : "Want",
+        "values" :
+        [
+            {"name" : "A dog"},
+            {"name" : "To rule a small island", "Weight": 4},
+            {"name" : "To get a district in town named after {objective}", "Weight" : 25},
+            {"name" : "To find the one ring", "Weight" : 30}
+        ]
+    },
+    {
+        "type" : "Age",
+        "values" :
+        [
+            {"name" : "child", "Weight" : 1},
+            {"name" : "old", "weight" : 20},
+            {"name" : "middle aged", "weight" : 55},
+            {"name" : "teen", "weight" : 5},
+            {"name" : "young adult", "weight" : 60},
+            {"name" : "ancient", "weight" : 5},
+            {"name" : "aging", "weight" : 40}
+        ]
+    },
+    {
+        "type" : "PhysicalTrait",
+        "values" :
+        [
+            {"name" : "enormous", "Weight" : 15},
+            {"name" : "slender", "weight" : 20},
+            {"name" : "tall", "weight" : 55},
+            {"name" : "short", "weight" : 70},
+            {"name" : "bespectacled", "weight" : 60},
+            {"name" : "curly haired", "weight" : 5},
+            {"name" : "blond", "weight" : 40}
+        ]
+    },
+    {
+        "type" : "PersonalityTrait",
+        "values" :
+        [
+            {"name" : "cantankerous", "Weight" : 15},
+            {"name" : "suave", "weight" : 5},
+            {"name" : "self-important", "weight" : 55},
+            {"name" : "friendly", "weight" : 70}
+        ]
+    },
+    {
+        "type" : "Secret",
+        "values" :
+        [
+            {"name" : "{pronoun} is racist against dwarves", "Weight" : 55},
+            {"name" : "is a polymorphed gold dragon -- but doesn't know it", "weight" : 5},
+            {"name" : "killed parents", "weight" : 40}
+        ]
+    },
+    {
+        "type" : "Hook",
+        "values" :
+        [
+            {"name" : "Knows where an unguarded item is", "weight" : 20},
+            {"name" : "Will pay for protection", "weight" : 55},
+            {"name" : "Wants to kill the mayor", "weight" : 5}
+        ]
+    },
+    {
+        "type" : "Bond",
+        "values" :
+        [
+            {"name" : "Will never hurt another", "Weight" : 15},
+            {"name" : "Will do anything for his brother", "weight" : 5},
+            {"name" : "Loves {possessive} town more than anything", "weight" : 40}
+        ]
+    },
+    {
+        "type" : "Alignment",
+        "values" :
+        [
+            {"weight" : 40, "name" : "True Neutral", "moral" : "neutral", "ethic" : "neutral"},
+            {"weight" : 55, "name" : "Lawful Neutral", "moral" : "neutral", "ethic" : "lawful"},
+            {"weight" : 35, "name" : "Chaotic Neutral", "moral" : "neutral", "ethic" : "chaotic"},
+            {"weight" : 60, "name" : "Neutral Good", "moral" : "good", "ethic" : "neutral"},
+            {"weight" : 58, "name" : "Lawful Good", "moral" : "good", "ethic" : "lawful"},
+            {"weight" : 35, "name" : "Chaotic Good", "moral" : "good", "ethic" : "chaotic"},
+            {"weight" : 40, "name" : "Neutral Evil", "moral" : "evil", "ethic" : "neutral"},
+            {"weight" : 20, "name" : "Lawful Evil", "moral" : "evil", "ethic" : "lawful"},
+            {"weight" : 25, "name" : "Chaotic Evil", "moral" : "evil", "ethic" : "chaotic"}
+        ]
+    },
+    {
+        "type" : "Occupation",
+        "values" :
+        [
+            {"name" : "Unemployed", "weight": 30},
+            {"name" : "Baker", "weight": 60}
+        ]
+    }
+]
